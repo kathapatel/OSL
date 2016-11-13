@@ -1,0 +1,19 @@
+#13bce077-13bce082
+Katha Patel, Vrajesh Patel
+GitHub write-up
+steps to push projects on GitHub
+
+1.make folder of you project in explorer
+2.run following command in cmd
+	git init //to initialize the repository
+	git add . //to add file in repository
+	git commit -m "first commit" //to commit changes
+3.to attach our local git repo to github repository run following command
+	git remote add origin https://github.com/kathapatel/OSL.git
+4.to push committed changes
+	git push origin master
+	where origin is remote name and master is branch name
+5.to pull changes
+	git pull origin master
+6.after deleting file run following command
+	git add --all
